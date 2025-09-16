@@ -212,6 +212,7 @@ patients_df$smoker <- factor(patients_df$smoker, levels = c("No", "Yes"))
 #Fit model
 model <- glm(risk_flag ~ smoker, data = patients_df, family = binomial)
 
+#Going to shelve this for a realistic data set
 
 
 
